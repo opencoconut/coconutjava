@@ -14,7 +14,7 @@ set webhook = http://mysite.com/webhook/coconut
 
 -> mp4  = $s3/videos/video.mp4
 -> webm = $s3/videos/video.webm
--> jpg_300x = $s3/previews/thumbs_#num#.jpg, number=3
+-> jpg:300x = $s3/previews/thumbs_#num#.jpg, number=3
 ```
 
 Here is the java code to submit the config file:
